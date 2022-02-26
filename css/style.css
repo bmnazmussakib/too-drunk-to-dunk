@@ -1,0 +1,121 @@
+/* Fonts */
+@font-face {
+    font-family: 'Helsinki';
+    src: url('../font/helsinki.ttf') format('ttf');
+}
+
+
+
+
+
+/* ------------------Common start------------------ */
+body{
+    
+}
+/* ------------------Common end------------------ */
+
+
+/* ------------------top start------------------ */
+.being-responsible{
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 700;
+    background-color: #000000;
+    color: #FFFF;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+/* ------------------top end------------------ */
+
+
+
+/* ------------------header start------------------ */
+header{
+    background-color: #ff9746;
+    padding: 0px 0;
+}
+.about-btn{
+    padding: 10px 35px !important;
+    border-radius: 80px;
+    background-color: #fff !important;
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: #000000 !important;
+    text-decoration: none;
+    text-align: center;
+}
+.about-btn:hover{
+    color: #ff9746 !important;
+}
+
+
+ 
+/* ------------------header end------------------ */
+
+
+
+/* ------------------banner start------------------ */
+.banner{
+    background: url('../img/banner.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-container{
+
+    
+}
+
+.banner-text{
+ 
+    
+}
+.banner-text h1{
+    font-family: 'Helsinki';
+    color: #fff;
+}
+
+/* ------------------banner end------------------ */
+
+
+
+/* ------------------drinking game start------------------ */
+/* ------------------drinking game end------------------ */
+
+
+
+/* ------------------game card start------------------ */
+/* ------------------game card end------------------ */
+
+
+
+/* ------------------game book start------------------ */
+/* ------------------game book end------------------ */
+
+
+
+/* ------------------book slider start------------------ */
+/* ------------------book slider end------------------ */
+
+
+
+/* ------------------ruthless start------------------ */
+/* ------------------ruthless end------------------ */
+
+
+
+/* ------------------faq start------------------ */
+/* ------------------faq end------------------ */
+
+
+
+/* ------------------subscription start------------------ */
+/* ------------------subscription end------------------ */
+
+
+
+/* ------------------footer start------------------ */
+/* ------------------footer end------------------ */

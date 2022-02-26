@@ -1,0 +1,234 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    /* ------------------top start------------------ */
+    .being-responsible {
+        font-size: 0.3rem;
+    }
+
+    /* ------------------top start------------------ */
+
+
+    /* Header start */
+    .logo img {
+        width: 60% !important;
+    }
+
+    .about-btn {
+        padding: 8px 30px !important;
+        border-radius: 80px;
+        background-color: #fff !important;
+        font-family: 'Poppins', sans-serif;
+        font-size: 15px;
+        font-weight: 600;
+        color: #000000 !important;
+        text-decoration: none;
+        text-align: center;
+
+    }
+
+    .about-btn {
+        margin-left: auto !important;
+    }
+
+    /* Header end */
+
+
+    /* Banner start */
+    .banner {
+        padding: 100px 0;
+    }
+
+    .banner-container {
+        /* background-color: #000000; */
+
+    }
+
+    .banner-text {
+        width: 90%;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-right: 80px;
+        padding-left: 30px; 
+        background-color: #000000;
+
+    }
+
+    .banner-text h1 {
+        font-family: 'Helsinki';
+        color: #fff;
+        font-size: 1.5rem !important;
+    }
+
+    /* Banner end */
+
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    /* ------------------top start------------------ */
+    .being-responsible {
+        font-size: 0.5rem;
+    }
+
+    /* ------------------top start------------------ */
+
+
+    
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /* ------------------top start------------------ */
+    .being-responsible {
+        font-size: 0.7rem;
+    }
+
+    /* ------------------top start------------------ */
+
+    /* Header start */
+    .logo img {
+        width: 70% !important;
+    }
+
+    .about-btn {
+        padding: 10px 35px !important;
+        border-radius: 80px;
+        background-color: #fff !important;
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        color: #000000 !important;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    /* Header end */
+
+    /* Banner start */
+    .banner {
+        padding: 100px 0;
+    }
+    
+    .banner-container {
+        /* background-color: #000000; */
+
+    }
+
+    .banner-text {
+        width: 60%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-right: 150px;
+        padding-left: 30px;
+        background-color: #000000;
+        /* align-items: center; */
+
+    }
+
+    .banner-text h1 {
+        font-family: 'Helsinki';
+        color: #fff;
+        font-size: 2rem !important;
+    }
+
+    /* Banner end */
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    /* Banner start */
+    .banner {
+        padding: 100px 0;
+    }
+
+    .banner-container {
+        /* background-color: #000000; */
+
+    }
+
+    .banner-text {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-right: 200px;
+        padding-left: 30px; 
+        background-color: #000000;
+
+    }
+
+    .banner-text h1 {
+        font-family: 'Helsinki';
+        color: #fff;
+        font-size: 2rem !important;
+    }
+
+    /* Banner end */
+
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+    /* banner start */
+    .banner {
+        padding: 100px 0;
+    }
+
+    .banner-container {
+        /* background-color: #000000; */
+
+    }
+
+    .banner-text {
+        /* width: 50%; */
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-right: 300px;
+        padding-left: 40px; 
+        background-color: #000000;
+        /* align-items: center;*/
+
+    }
+
+    .banner-text h1 {
+        font-family: 'Helsinki';
+        color: #fff;
+    }
+
+    /* banner end */
+
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+
+    /* Banner start */
+    .banner {
+        padding: 100px 0;
+    }
+
+    .banner-container {
+        background-color: #000000;
+
+    }
+
+    .banner-text {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-right: 250px;
+        padding-left: 30px;
+
+    }
+
+    .banner-text h1 {
+        font-size: 3rem !important;
+    }
+
+    /* Banner end */
+
+}
