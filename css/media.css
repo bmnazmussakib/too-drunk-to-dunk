@@ -49,7 +49,7 @@
         padding-top: 40px;
         padding-bottom: 40px;
         padding-right: 80px;
-        padding-left: 30px; 
+        padding-left: 30px;
         background-color: #000000;
 
     }
@@ -62,6 +62,41 @@
 
     /* Banner end */
 
+    /* ------------------------drinking game start------------------------ */
+    .drinking-game {
+        padding: 50px 0;
+    }
+
+    .drinking-game-text {
+        width: 90%;
+    }
+
+    .drinking-game-text h2 {
+        font-size: 20px;
+    }
+
+    .drinking-game-text p {
+        font-size: 13px;
+    }
+
+    .drinking-game-img-container {
+        display: flex;
+        align-items: center !important;
+    }
+
+    /* ------------------------drinking game end------------------------ */
+
+    /* game card start */
+    .game-card-headline {
+        margin-bottom: 50px;
+    }
+
+    .card {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    /* game card end */
 
 }
 
@@ -76,7 +111,8 @@
     /* ------------------top start------------------ */
 
 
-    
+
+
 
 }
 
@@ -109,11 +145,12 @@
 
     /* Header end */
 
+
     /* Banner start */
     .banner {
         padding: 100px 0;
     }
-    
+
     .banner-container {
         /* background-color: #000000; */
 
@@ -137,6 +174,61 @@
     }
 
     /* Banner end */
+
+
+    /* ------------------------drinking game start------------------------ */
+    .drinking-game {
+        padding: 60px 0;
+    }
+
+    .drinking-game-text {
+        width: 80%;
+    }
+
+    .drinking-game-text h2 {
+        font-size: 35px;
+    }
+
+    .drinking-game-text p {
+        font-size: 16px;
+    }
+
+    .drinking-game-img-container {
+        display: flex;
+        align-items: flex-end !important;
+    }
+
+    /* ------------------------drinking game end------------------------ */
+
+
+    /* ------------------------game card start------------------------ */
+    .game-card-headline {
+        margin-bottom: 60px;
+    }
+
+    .card {
+        background-color: #ff9545 !important;
+        padding: 25px 18px;
+        height: 100%;
+    }
+
+    .game-card h2 {
+        font-size: 40px;
+    }
+
+    .card-title {
+        font-size: 22px;
+        margin-bottom: 20px;
+        ;
+    }
+
+    .card-text {
+        font-size: 16px;
+    }
+
+    /* ------------------------game card end------------------------ */
+
+
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -156,7 +248,7 @@
         padding-top: 40px;
         padding-bottom: 40px;
         padding-right: 200px;
-        padding-left: 30px; 
+        padding-left: 30px;
         background-color: #000000;
 
     }
@@ -167,7 +259,60 @@
         font-size: 2rem !important;
     }
 
+    .drinking-game-img-container {
+        display: flex;
+        align-items: flex-end !important;
+    }
+
     /* Banner end */
+
+
+    /* ------------------------drinking game start------------------------ */
+    .drinking-game {
+        padding: 80px 0;
+    }
+
+    .drinking-game-text {
+        width: 70%;
+    }
+
+    .drinking-game-text h2 {
+        font-size: 40px;
+    }
+
+    .drinking-game-text p {
+        font-size: 16px;
+    }
+
+    .drinking-game-img-container {
+        display: flex;
+        align-items: flex-end !important;
+    }
+
+    /* ------------------------drinking game end------------------------ */
+
+
+    /* ------------------------game card start------------------------ */
+    .game-card-headline{
+        margin-bottom: 80px;
+    }
+
+    .game-card h2 {
+        font-size: 50px;
+    }
+
+    .card-title {
+        font-size: 25px !important;
+        margin-bottom: 20px;
+        ;
+    }
+
+    .card-text {
+        font-size: 20px;
+    }
+
+    /* ------------------------game card end------------------------ */
+
 
 }
 
@@ -176,7 +321,7 @@
 
     /* banner start */
     .banner {
-        padding: 100px 0;
+        padding: 200px 0;
     }
 
     .banner-container {
@@ -189,7 +334,7 @@
         padding-top: 40px;
         padding-bottom: 40px;
         padding-right: 300px;
-        padding-left: 40px; 
+        padding-left: 40px;
         background-color: #000000;
         /* align-items: center;*/
 
@@ -201,6 +346,55 @@
     }
 
     /* banner end */
+
+
+    /* ------------------------drinking game start------------------------ */
+    .drinking-game {
+        padding: 100px 0;
+    }
+
+    .drinking-game-text {
+        width: 60%;
+    }
+
+    .drinking-game-text h2 {
+        font-size: 45px;
+    }
+
+    .drinking-game-text p {
+        font-size: 20px;
+    }
+
+    .drinking-game-img-container {
+        display: flex;
+        align-items: flex-end !important;
+    }
+
+    /* ------------------------drinking game end------------------------ */
+
+
+    /* ------------------------game card start------------------------ */
+    .game-card-headline{
+        margin-bottom: 80px;
+    }
+
+    .game-card h2 {
+        font-size: 50px;
+    }
+
+    .card-title {
+        font-size: 30px;
+        margin-bottom: 20px;
+        ;
+    }
+
+    .card-text {
+        font-size: 20px;
+    }
+
+    /* ------------------------game card end------------------------ */
+
+
 
 }
 
@@ -230,5 +424,58 @@
     }
 
     /* Banner end */
+
+
+
+    /* ------------------------drinking game start------------------------ */
+    .drinking-game {
+        padding: 100px 0;
+    }
+
+    .drinking-game-text {
+        width: 60%;
+    }
+
+    .drinking-game-text h2 {
+        font-size: 50px;
+    }
+
+    .drinking-game-text p {
+        font-size: 28px;
+    }
+
+
+    .drinking-game-img-container {
+        display: flex;
+        align-items: flex-end !important;
+    }
+
+    /* ------------------------drinking game end------------------------ */
+
+
+    /* ------------------------game card start------------------------ */
+    .game-card-headline{
+        margin-bottom: 100px;
+    }
+    .card {
+        background-color: #ff9545 !important;
+        padding: 30px 40px;
+        height: 100%;
+    }
+
+    .game-card h2 {
+        font-size: 72px;
+    }
+
+    .card-title {
+        font-size: 48px;
+        margin-bottom: 40px;
+    }
+
+    .card-text {
+        font-size: 28px;
+    }
+
+    /* ------------------------game card end------------------------ */
 
 }
