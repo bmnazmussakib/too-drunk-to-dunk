@@ -9,17 +9,19 @@
 
 
 /* ------------------Common start------------------ */
-body{
-    font-family: 'Poppins', sans-serif; 
+body {
+    font-family: 'Poppins', sans-serif;
 }
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Helsinki';
 }
+
 /* ------------------Common end------------------ */
 
 
 /* ------------------top start------------------ */
-.being-responsible{
+.being-responsible {
     font-family: 'Poppins', sans-serif;
     font-size: 0.8rem;
     font-weight: 700;
@@ -29,16 +31,18 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     align-items: center;
 }
+
 /* ------------------top end------------------ */
 
 
 
 /* ------------------header start------------------ */
-header{
+header {
     background-color: #ff9746;
     padding: 0px 0;
 }
-.about-btn{
+
+.about-btn {
     padding: 10px 35px !important;
     border-radius: 80px;
     background-color: #fff !important;
@@ -49,34 +53,30 @@ header{
     text-decoration: none;
     text-align: center;
 }
-.about-btn:hover{
+
+.about-btn:hover {
     color: #ff9746 !important;
 }
 
 
- 
+
 /* ------------------header end------------------ */
 
 
 
 /* ------------------banner start------------------ */
-.banner{
+.banner {
     background: url('../img/banner.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.banner-container{
+.banner-container {}
 
-    
-}
+.banner-text {}
 
-.banner-text{
- 
-    
-}
-.banner-text h1{
+.banner-text h1 {
     color: #fff;
 }
 
@@ -85,64 +85,260 @@ header{
 
 
 /* ------------------drinking game start------------------ */
-.drinking-game-text p{
+.drinking-game-text p {
     font-weight: 300;
 }
-
+.my-btn{
+    background-color: #ff9545 !important;
+    border-radius: 50px !important;
+    font-size: 18px !important;
+    font-weight: 700 !important;
+}
 /* ------------------drinking game end------------------ */
 
 
 
 /* ------------------game card start------------------ */
-.game-card{
+.game-card {
     background-color: #000000;
     padding: 80px 0;
     color: #000000;
 }
+
 .card {
     background-color: #ff9545 !important;
     padding: 30px 20px;
     height: 100%;
 }
-.card-title{
-    font-family: 'Poppins', sans-serif; 
-    font-weight: 600 !important; 
+
+.card-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600 !important;
     /* margin-bottom: 30px !important; */
 }
 
-.card-text{
+.card-text {
     font-weight: 300;
     font-weight: 300;
-    
+
 }
+
 /* ------------------game card end------------------ */
 
 
 
 /* ------------------game book start------------------ */
+.game-book {
+    width: 100%;
+    height: 100vh;
+    background: url('../img/game-book.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 /* ------------------game book end------------------ */
 
 
 
 /* ------------------book slider start------------------ */
+.book-slider {
+    background: #000000;
+    padding: 80px 0;
+}
+
+.book-slider-img {
+    text-align: center;
+}
+
+.book-slider-text h3 {
+    color: #ffffff;
+}
+
+.book-slider-text p {
+    color: #ffffff;
+    font-weight: 300;
+}
+
 /* ------------------book slider end------------------ */
 
 
 
 /* ------------------ruthless start------------------ */
+.ruthless {
+    width: 100%;
+    height: 100%;
+    background: url('../img/ruthless.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    padding: 80px 0;
+}
+
+.ruthless-text {
+    background-color: #000000;
+    width: 55%;
+    padding: 30px;
+}
+
+.ruthless-text p {
+    font-weight: 300;
+}
+
+.ruthless-card {
+    color: #000000;
+}
+
+.ruthless-single-card {
+    background-color: #ff9645;
+    border-radius: 10px;
+}
+
+.ruthless-single-card h5 {
+    font-weight: 700;
+}
+
 /* ------------------ruthless end------------------ */
 
 
 
 /* ------------------faq start------------------ */
+.faq {
+    background-color: #000000;
+    /* width: 100%;
+    height: 100vh; */
+    padding: 150px 0;
+    color: #FFFFFF;
+}
+
+.accordion-item{
+    margin: 20px 0;
+}
+
+.accordion-header{
+    background-color: #000000 !important;
+}
+
+.accordion-button{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+.bg-color{
+    background:black !important;
+    color:white !important;
+}
+
+.slick-dots li button:before{
+    color: #f79243 !important;
+    font-size: 20px !important;
+}
 /* ------------------faq end------------------ */
 
 
 
 /* ------------------subscription start------------------ */
+
+
+/* Email box */
+
+
+#custom-search-input {
+    margin: 0;
+    margin-top: 10px;
+    padding: 0;
+    width: 50%;
+    margin: 0 auto;
+}
+
+#custom-search-input .search-query {
+    padding-right: 40px;
+    padding-left: 20px !important;
+    border-radius: 50px !important;
+    background-color: #000000;
+    color: #FFFFFF;
+    /* IE7-8 doesn't have border-radius, so don't indent the padding */
+
+    margin-bottom: 0;
+    border-radius: 3px;
+}
+
+#custom-search-input button {
+    border: 0;
+    background: none;
+    padding: 2px 5px;
+    margin-top: 2px;
+    position: relative;
+    left: -28px;
+    margin-bottom: 0;
+    border-radius: 3px;
+    color: #D9230F;
+}
+
+.search-query:focus+button {
+    z-index: 3;
+}
+
+/* Email box */
+
+
+
+.bullshit {
+    font-weight: 500;
+    font-style: italic;
+}
+
+.bullshit a {
+    color: #000000 !important;
+
+}
+
 /* ------------------subscription end------------------ */
 
 
 
 /* ------------------footer start------------------ */
+footer{
+    background-color: #ff9545;
+    padding: 80px;;
+}
+
+.footer-icon{}
+.footer-icon ul{}
+.footer-icon li{
+    list-style: none;
+}
+.footer-icon li a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 600;
+}
+.find-us{
+    margin-bottom: 20px;
+}
+.find-us h5{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+}
+.social-icon{
+
+}
+
+.footer-about-btn {
+    padding: 10px 35px !important;
+    border-radius: 80px;
+    background-color: #fff !important;
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: #000000 !important;
+    text-decoration: none;
+    text-align: center;
+}
+
+.copyright, .privacy{
+    font-weight: 600;
+}
 /* ------------------footer end------------------ */
