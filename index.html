@@ -110,11 +110,13 @@
 
 
   <!-- -----------------drinking game start----------------- -->
-  <section class="drinking-game">
+  <section class="drinking-game drinking-game-img-container">
     <div class="container-fluid">
-      <div class="row">
-        <div class=" col-7">
-          <div class="drinking-game-text mx-auto">
+
+
+      <!-- <div class="row">
+        <div class=" col-8">
+          <div class="drinking-game-text">
             <h2>Who doesn’t love drinking games?</h2>
             <p class="my-4">But there is a problem. Every damn card drinking game we played either couldn’t be played
               twice or was
@@ -129,18 +131,42 @@
 
               Check out our kickstarter page and join the limited pre-order list to make this game a reality!</p>
 
-            <div class="d-grid gap-2 col-md-7 col-10">
-              <button class="my-btn btn " type="button">FUND OUR KICKSTARTER
+
+          </div>
+        </div>
+
+
+        <div class=" col-4">
+          <div class="drinking-game-img ms-2">
+          </div>
+        </div>
+
+        
+      </div> -->
+    
+    
+    <div class="drinking-game-text">
+            <h2>Who doesn’t love drinking games?</h2>
+            <p class="my-4">But there is a problem. Every damn card drinking game we played either couldn’t be played
+              twice or was
+              full of silly dares that nobody enjoyed. <br><br>
+
+              Our best bet was to stick with beer pong, but then we thought, what if there was an improved version of
+              this? And that’s what we did. We put our heads down and spent countless hours thinking of the perfect
+              variation that made you smashed, while having fun. <br><br>
+
+              With 60 Cards in our deck, and 12-20 cards in use at a time, these cards will last you forever, no matter
+              how hard you party. <br><br>
+
+              Check out our kickstarter page and join the limited pre-order list to make this game a reality!</p>
+
+            <!-- <div class="d-grid gap-2 col-md-7 col-10"> -->
+            <div class="col-md-10 col-10">
+              <button class="drinking-game-btn btn mt-4" type="button">FUND OUR KICKSTARTER
               </button>
             </div>
+
           </div>
-        </div>
-        <div class=" col-5 drinking-game-img-container">
-          <div class="drinking-game-img ">
-            <img src="./img/Who does not love drinking games.png" alt="" class="img-fluid">
-          </div>
-        </div>
-      </div>
     </div>
   </section>
   <!-- -----------------drinking game end----------------- -->
@@ -218,9 +244,9 @@
           </div> -->
 
           <div class="one-time">
-            <div><img src="./img/book.png" alt="" class="img-slider w-50"></div>
-            <div><img src="./img/book.png" alt="" class="img-slider w-50"></div>
-            <div><img src="./img/book.png" alt="" class="img-slider w-50"></div>
+            <div><img src="./img/book.png" alt="" class="img-slider w-50" style="margin: auto;"></div>
+            <div><img src="./img/book.png" alt="" class="img-slider w-50" style="margin: auto;"></div>
+            <div><img src="./img/book.png" alt="" class="img-slider w-50" style="margin: auto;"></div>
           </div>
 
         </div>
@@ -312,7 +338,7 @@
   <!-- -----------------faq start----------------- -->
   <section class="faq">
     <div class="container">
-      <h1>FAQ</h1>
+      <h1 class="faq-title">FAQ</h1>
 
       <!-- FAQ start -->
       <div class="accordion" id="accordionExample">
@@ -431,7 +457,7 @@
       <!-- email box -->
       <div id="custom-search-input">
         <div class="input-group">
-          <input type="text" class="  search-query form-control" placeholder="Search" />
+          <input type="text" class="search-query form-control" placeholder="E-mail Address" />
           <span class="input-group-btn">
             <button class="btn btn-danger" type="button">
               <span class=" glyphicon glyphicon-search"><i class="fa-solid fa-paper-plane text-white"></i></span>
@@ -453,19 +479,19 @@
 
   <!-- -----------------footer start----------------- -->
   <footer>
-    <div class="container">
+    <div class="container footer-container">
       <div class="row d-flex align-items-center">
-        <div class="col-lg-2 col-md-3">
+        <div class="col-lg-2 col-md-3 ">
           <div class="footer-logo">
             <img src="./img/footer logo.png" alt="" class="img-fluid">
           </div>
         </div>
-        <div class="col-lg-2 col-md-3">
-          <div class="navbar-nav ms-auto">
+        <div class="col-lg-2 col-md-3 col-10 footer-btn">
+          <div class="navbar-nav ms-auto ">
             <a class="nav-link footer-about-btn" href="#">About</a>
           </div>
         </div>
-        <div class="col-lg-8 col-md-6 footer-icon-container">
+        <div class="col-lg-8 col-md-6 col-12 footer-icon-container">
           <ul class="footer-icon">
             <li class="find-us">
               <h5>FIND US</h5>
@@ -485,17 +511,19 @@
           </ul>
         </div>
       </div>
+
+      <div class="row">
+        <div class="col-lg-5 col-md-6 col-12 company-policy">
+          <p class="copyright">© 2022 TOO DRUNK TO DUNK</p>
+          <p class="privacy">Privacy Policy</p>
+        </div>
+        <!-- <div class="col-lg-8 col-md-6 col-12 privacy">
+            <p>Privacy Policy</p>
+          </div> -->
+      </div>
     </div>
 
-    <div class="row">
-      <div class="company-policy">
-        <span class="copyright">© 2022 TOO DRUNK TO DUNK</span>
-        <span>Privacy Policy</span>
-      </div>
-      <!-- <div class="col-lg-8 col-md-6 col-12 privacy">
-          <p>Privacy Policy</p>
-        </div> -->
-    </div>
+
     </div>
   </footer>
   <!-- -----------------footer end----------------- -->

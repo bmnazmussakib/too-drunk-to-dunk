@@ -45,10 +45,10 @@
     }
 
     .banner-text {
-        width: 90%;
-        padding-top: 40px;
-        padding-bottom: 40px;
-        padding-right: 80px;
+        width: 70%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-right: 70px;
         padding-left: 30px;
         background-color: #000000;
 
@@ -57,13 +57,13 @@
     .banner-text h1 {
         font-family: 'Helsinki';
         color: #fff;
-        font-size: 1.5rem !important;
+        font-size: 1.1rem !important;
     }
 
     /* Banner end */
 
     /* ------------------------drinking game start------------------------ */
-    .drinking-game {
+    /* .drinking-game {
         padding: 50px 0;
     }
 
@@ -84,11 +84,11 @@
         align-items: center !important;
     }
 
-    .my-btn{
+    .my-btn {
         border-radius: 50px !important;
         font-size: 8px !important;
         font-weight: 700 !important;
-    }
+    } */
 
     /* ------------------------drinking game end------------------------ */
 
@@ -102,60 +102,162 @@
         margin: 0 auto;
     }
 
-    .slider-btn{
+    .slider-btn {
         font-size: 14px !important;
         padding: 10px 25px !important;
     }
 
     /* game card end */
 
-    /* ------------------------drinking game end------------------------ */
-    .book-slider-img {
-        margin-bottom: 40px
+
+
+    /* Drinking game start */
+    .drinking-game {
+        padding: 50px 0 !important;
     }
 
-    .book-slider-text h3 {
-        margin-bottom: 30px;
-    }
-
-    .book-slider-text p {
-        margin-bottom: 30px;
-    }
-
-    /* ------------------------drinking game end------------------------ */
-
-
-    /* ------------------------ruthless end------------------------ */
-    .ruthless-text {
+    .drinking-game-text {
         width: 80%;
+        margin-left: 10%;
+    }
+
+    .drinking-game-text h2 {
+        font-size: 2em;
+        margin-bottom: 30px;
+    }
+
+    .drinking-game-text p {
+        font-size: 1em;
+    }
+
+    .drinking-game-btn {
+        border-radius: 50px !important;
+        font-size: 12px !important;
+        font-weight: 700 !important;
+        padding: 12px 50px;
+        background-color: #ff9545 !important;
+    }
+
+    /* Drinking game end */
+
+
+
+    /* ------------------game card start------------------ */
+    .game-card {
+        background-color: #000000;
+        padding: 90px 0;
+        color: #000000;
+    }
+
+    .game-card-headline {
+        margin-bottom: 80px;
+    }
+
+    .game-card-headline h2 {
+        font-size: 2em;
+    }
+
+    .card {
+        background-color: #ff9545 !important;
+        padding: 25px 25px;
+        height: 100%;
+        border-radius: 10px;
+    }
+
+    .card-title {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600 !important;
+        font-size: 1.8em !important;
+        /* height: 50px; */
+        /* margin-bottom: 30px !important; */
+    }
+
+    .card-text {
+        font-weight: 300;
+        font-size: 18px;
+
+    }
+
+    /* ------------------game card end------------------ */
+
+
+
+
+
+    /* ------------------book slider start------------------ */
+    .book-slider-text h3 {
+        margin-top: 40px;
+    }
+
+    .book-slider-text {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    /* ------------------book slider end------------------ */
+
+
+
+
+    /* ------------------ruthless start------------------ */
+    .ruthless {
+        width: 100%;
+        height: 100%;
+        background: url('../img/ruthless.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: #ffffff;
+        padding: 80px 0;
+    }
+
+    .ruthless-text {
+        background-color: #000000;
+        width: 70%;
+        padding: 25px;
     }
 
     .ruthless-text h2 {
-        font-size: 20px;
+        font-size: 22px;
         margin-bottom: 20px;
     }
 
-    .ruthless-card {
-        width: 80%;
-        margin: 0 auto;
-        margin-top: 20px;
+    .ruthless-text p {
+        font-weight: 300;
+        font-size: 10px;
+        margin-bottom: 20px;
     }
 
-    .ruthless-text p {
-        font-size: 12px;
+    .my-btn {
+        border-radius: 50px !important;
+        font-size: 10px !important;
+        font-weight: 700 !important;
+        padding: 8px 20px;
+    }
+
+    .ruthless-card {
+        color: #000000;
+        margin-top: 50px;
+        width: 80%;
+        margin: 0 auto;
     }
 
     .ruthless-single-card {
-        height: 100px;
-        padding: 20px;
-        margin-top: 20px;
+        background-color: #ff9645;
+        border-radius: 10px;
+        padding: 30px;
+        height: 120px;
+        margin-top: 30px;
     }
 
     .ruthless-single-card h5 {
-        font-size: 16px;
+        font-weight: 700;
+        font-size: 1em;
     }
 
-    /* ------------------------ruthless end------------------------ */
+
+    /* ------------------ruthless end------------------ */
+
 
 
     /* ------------------------subscription start------------------------ */
@@ -190,6 +292,11 @@
 
 
     /* ------------------------footer end------------------------ */
+    .footer-logo-container {
+        width: 90%;
+        margin: 0 auto;
+    }
+
     .find-us h5 {
         font-size: 24px;
     }
@@ -202,31 +309,55 @@
         font-size: 18px;
     }
 
-    .footer-logo{
+    .footer-logo {
         margin-bottom: 60px;
     }
 
+    .footer-btn {
+        margin: 0 auto;
+    }
+
     .footer-about-btn {
-        padding: 8px 0px !important;
+        padding: 8px 20px !important;
         border-radius: 80px;
         background-color: #fff !important;
         font-family: 'Poppins', sans-serif;
-        font-size: 22px;
+        font-size: 18px;
         font-weight: 600;
         text-decoration: none;
         text-align: center;
     }
 
 
-    .company-policy span{
+    .company-policy span {
         font-size: 12px;
         margin-top: 30px;
         display: block;
     }
-    
-    .copyright{
-        margin-right: 30px;
+
+    .find-us h5 {
+        font-size: 20px;
     }
+
+    .social-icon {}
+
+    .footer-icon-container {
+        margin-bottom: 30px;
+    }
+
+    .social-icon p a {
+        font-size: 18px;
+    }
+
+
+    .copyright {
+        font-style: 8px !important;
+    }
+
+    .privacy {
+        font-style: 8px !important;
+    }
+
     /* ------------------------footer end------------------------ */
 
 }
@@ -307,63 +438,76 @@
     /* Banner end */
 
 
-    /* ------------------------drinking game start------------------------ */
+    /* Drinking game start */
     .drinking-game {
-        padding: 60px 0;
+        padding: 80px 0 !important;
     }
 
     .drinking-game-text {
-        width: 80%;
+        width: 50%;
+        margin-left: 10%;
     }
 
     .drinking-game-text h2 {
-        font-size: 35px;
+        font-size: 2.2em;
+        margin-bottom: 50px;
     }
 
     .drinking-game-text p {
-        font-size: 16px;
+        font-size: 1em;
     }
 
-    .drinking-game-img-container {
-        display: flex;
-        align-items: flex-end !important;
-    }
-
-    .my-btn{
+    .drinking-game-btn {
         border-radius: 50px !important;
         font-size: 12px !important;
         font-weight: 700 !important;
+        padding: 12px 50px;
+        background-color: #ff9545 !important;
     }
 
-    /* ------------------------drinking game end------------------------ */
+    /* Drinking game end */
 
 
-    /* ------------------------game card start------------------------ */
+
+
+    /* ------------------game card start------------------ */
+    .game-card {
+        background-color: #000000;
+        padding: 90px 0;
+        color: #000000;
+    }
+
     .game-card-headline {
-        margin-bottom: 60px;
+        margin-bottom: 80px;
+    }
+
+    .game-card-headline h2 {
+        font-size: 2.5em;
     }
 
     .card {
         background-color: #ff9545 !important;
-        padding: 25px 18px;
+        padding: 15px 15px;
         height: 100%;
-    }
-
-    .game-card h2 {
-        font-size: 40px;
+        border-radius: 10px;
     }
 
     .card-title {
-        font-size: 22px;
-        margin-bottom: 20px;
-        ;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600 !important;
+        font-size: 1.2em !important;
+        height: 50px;
+        /* margin-bottom: 30px !important; */
     }
 
     .card-text {
-        font-size: 16px;
+        font-weight: 300;
+        font-size: 14px;
+
     }
 
-    /* ------------------------game card end------------------------ */
+    /* ------------------game card end------------------ */
+
 
 
     /* ------------------------book slider end------------------------ */
@@ -375,42 +519,73 @@
         margin-bottom: 30px;
     }
 
-    .slider-btn{
+    .slider-btn {
         font-size: 14px !important;
         padding: 10px 30px !important;
     }
+
     /* ------------------------book slider end------------------------ */
 
 
-    /* ------------------------ruthless end------------------------ */
+
+
+    /* ------------------ruthless start------------------ */
+    .ruthless {
+        width: 100%;
+        height: 100%;
+        background: url('../img/ruthless.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: #ffffff;
+        padding: 80px 0;
+    }
+
     .ruthless-text {
-        width: 70%;
+        background-color: #000000;
+        width: 60%;
         padding: 50px;
     }
 
     .ruthless-text h2 {
-        font-size: 35px;
-        margin-bottom: 40px;
+        font-size: 38px;
+        margin-bottom: 45px;
     }
 
     .ruthless-text p {
-        font-size: 18px;
+        font-weight: 300;
+        font-size: 15px;
+        margin-bottom: 50px;
+    }
+
+    .my-btn {
+        border-radius: 50px !important;
+        font-size: 15px !important;
+        font-weight: 700 !important;
+        padding: 10px 40px;
     }
 
     .ruthless-card {
-        margin-top: 40px;
+        color: #000000;
+        margin-top: 50px;
     }
 
     .ruthless-single-card {
-        height: 100px;
+        background-color: #ff9645;
+        border-radius: 10px;
         padding: 20px;
+        height: 100px;
     }
 
     .ruthless-single-card h5 {
-        font-size: 16px;
+        font-weight: 700;
+        font-size: 1em;
     }
 
-    /* ------------------------ruthless end------------------------ */
+
+    /* ------------------ruthless end------------------ */
+
+
 
 
     /* ------------------------subscription start------------------------ */
@@ -439,9 +614,36 @@
         margin-bottom: 15px;
     }
 
+
+    #custom-search-input .search-query {
+        padding-top: 5px;
+        padding-bottom: 6px;
+        padding-right: 29px;
+        padding-left: 25px !important;
+        border-radius: 76px !important;
+        background-color: #000000;
+        color: #FFFFFF;
+        margin-bottom: 0;
+        border-radius: 3px;
+        font-size: 15px;
+    }
+
+
+
+    #custom-search-input {
+        width: 50%;
+        margin-bottom: 15px;
+    }
+
+
+    .fa-paper-plane {
+        font-size: 20px;
+    }
+
+
     #custom-search-input button {
-        padding: 4px 5px;
-        left: -35px;
+        padding: 8px 5px;
+        left: -40px;
     }
 
     .bullshit {
@@ -451,12 +653,12 @@
     /* ------------------------subscription end------------------------ */
 
 
-    /* ------------------------footer end------------------------ */
+    /* ------------------------footer start------------------------ */
     .find-us h5 {
         font-size: 25px;
     }
 
-    .footer-icon{
+    .footer-icon {
         float: right;
     }
 
@@ -464,7 +666,7 @@
         font-size: 18px;
     }
 
-    .footer-logo{
+    .footer-logo {
         margin-bottom: 40px;
     }
 
@@ -480,14 +682,32 @@
     }
 
 
-    .company-policy span{
+    .company-policy span {
         font-size: 12px;
     }
-    
-    .copyright{
-        margin-right: 20px;
+
+    .copyright {
+        margin-right: 15px;
+        font-size: 12px;
     }
-    
+
+    .privacy {
+        font-size: 12px;
+    }
+
+    .find-us h5 {
+        font-size: 22px;
+    }
+
+    .social-icon p a {
+        font-size: 15px;
+    }
+
+    .company-policy {
+        display: flex;
+        justify-content: between;
+    }
+
     /* ------------------------footer end------------------------ */
 
 }
@@ -528,56 +748,75 @@
     /* Banner end */
 
 
-    /* ------------------------drinking game start------------------------ */
+    /* Drinking game start */
     .drinking-game {
-        padding: 80px 0;
+        padding: 80px 0 !important;
     }
 
     .drinking-game-text {
-        width: 70%;
+        width: 38%;
+        margin-left: 10%;
     }
 
     .drinking-game-text h2 {
-        font-size: 40px;
+        font-size: 2.5em;
+        margin-bottom: 50px;
     }
 
     .drinking-game-text p {
-        font-size: 16px;
+        font-size: 1.1em;
     }
 
-    .drinking-game-img-container {
-        display: flex;
-        align-items: flex-end !important;
-    }
-
-    .my-btn{
+    .drinking-game-btn {
         border-radius: 50px !important;
-        font-size: 14px !important;
+        font-size: 13px !important;
         font-weight: 700 !important;
+        padding: 12px 55px;
+        background-color: #ff9545 !important;
     }
-    /* ------------------------drinking game end------------------------ */
+
+    /* Drinking game end */
 
 
-    /* ------------------------game card start------------------------ */
+
+
+    /* ------------------game card start------------------ */
+    .game-card {
+        background-color: #000000;
+        padding: 90px 0;
+        color: #000000;
+    }
+
     .game-card-headline {
         margin-bottom: 80px;
     }
 
-    .game-card h2 {
-        font-size: 50px;
+    .game-card-headline h2 {
+        font-size: 3em;
+    }
+
+    .card {
+        background-color: #ff9545 !important;
+        padding: 30px 20px;
+        height: 100%;
+        border-radius: 10px;
     }
 
     .card-title {
-        font-size: 25px !important;
-        margin-bottom: 20px;
-        ;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600 !important;
+        font-size: 1.8em !important;
+        height: 80px;
+        /* margin-bottom: 30px !important; */
     }
 
     .card-text {
-        font-size: 20px;
+        font-weight: 300;
+        font-size: 18px;
+
     }
 
-    /* ------------------------game card end------------------------ */
+    /* ------------------game card end------------------ */
 
 
     /* ------------------------book slider end------------------------ */
@@ -592,7 +831,7 @@
 
     }
 
-    .slider-btn{
+    .slider-btn {
         font-size: 14px !important;
         padding: 10px 30px !important;
     }
@@ -633,6 +872,64 @@
     /* ------------------------book slider end------------------------ */
 
 
+    /* ------------------ruthless start------------------ */
+    .ruthless {
+        width: 100%;
+        height: 100%;
+        background: url('../img/ruthless.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: #ffffff;
+        padding: 100px 0;
+    }
+
+    .ruthless-text {
+        background-color: #000000;
+        width: 58%;
+        padding: 65px;
+    }
+
+    .ruthless-text h2 {
+        font-size: 50px;
+        margin-bottom: 50px;
+    }
+
+    .ruthless-text p {
+        font-weight: 300;
+        font-size: 20px;
+        margin-bottom: 50px;
+    }
+
+    .my-btn {
+        border-radius: 50px !important;
+        font-size: 20px !important;
+        font-weight: 700 !important;
+        padding: 10px 40px;
+    }
+
+    .ruthless-card {
+        color: #000000;
+        margin-top: 50px;
+    }
+
+    .ruthless-single-card {
+        background-color: #ff9645;
+        border-radius: 10px;
+        padding: 30px;
+        height: 150px;
+    }
+
+    .ruthless-single-card h5 {
+        font-weight: 700;
+        font-size: 1.4em;
+    }
+
+
+    /* ------------------ruthless end------------------ */
+
+
+
     /* ------------------------subscription start------------------------ */
     .subscription-title {
         margin-bottom: 30px;
@@ -652,15 +949,35 @@
     }
 
 
+    #custom-search-input .search-query {
+        padding-top: 5px;
+        padding-bottom: 6px;
+        padding-right: 29px;
+        padding-left: 35px !important;
+        border-radius: 76px !important;
+        background-color: #000000;
+        color: #FFFFFF;
+        margin-bottom: 0;
+        border-radius: 3px;
+        font-size: 20px;
+    }
+
+    #custom-search-input button {
+        padding: 12px 5px;
+        left: -60px;
+    }
+
+
     #custom-search-input {
         width: 50%;
         margin-bottom: 15px;
     }
 
-    #custom-search-input button {
-        padding: 4px 5px;
-        left: -35px;
+
+    .fa-paper-plane {
+        font-size: 25px;
     }
+
 
     .bullshit {
         font-size: 12px;
@@ -674,7 +991,7 @@
         font-size: 22px;
     }
 
-    .footer-icon{
+    .footer-icon {
         float: right;
     }
 
@@ -689,13 +1006,28 @@
         text-align: center;
     }
 
-    .company-policy span{
+    .company-policy span {
         font-size: 15px;
     }
-    
-    .copyright{
+
+    .copyright {
         margin-right: 15px;
+        font-size: 14px;
     }
+
+    .privacy {
+        font-size: 14px;
+    }
+
+    .social-icon p a {
+        font-size: 20px;
+    }
+
+    .company-policy {
+        display: flex;
+        justify-content: between;
+    }
+
     /* ------------------------footer end------------------------ */
 
 }
@@ -732,56 +1064,75 @@
     /* banner end */
 
 
-    /* ------------------------drinking game start------------------------ */
+    /* Drinking game start */
     .drinking-game {
-        padding: 100px 0;
+        padding: 100px 0 !important;
     }
 
     .drinking-game-text {
-        width: 60%;
+        width: 38%;
+        margin-left: 10%;
     }
 
     .drinking-game-text h2 {
-        font-size: 45px;
+        font-size: 3em;
+        margin-bottom: 50px;
     }
 
     .drinking-game-text p {
-        font-size: 20px;
+        font-size: 1.1em;
     }
 
-    .drinking-game-img-container {
-        display: flex;
-        align-items: flex-end !important;
+    .drinking-game-btn {
+        border-radius: 50px !important;
+        font-size: 15px !important;
+        font-weight: 700 !important;
+        padding: 12px 55px;
+        background-color: #ff9545 !important;
     }
 
-    .my-btn{
-        padding-top: 15px;
-        padding-bottom: 15px;
+    /* Drinking game end */
+
+
+
+
+    /* ------------------game card start------------------ */
+    .game-card {
+        background-color: #000000;
+        padding: 150px 0;
+        color: #000000;
     }
 
-    /* ------------------------drinking game end------------------------ */
-
-
-    /* ------------------------game card start------------------------ */
     .game-card-headline {
         margin-bottom: 80px;
     }
 
-    .game-card h2 {
-        font-size: 50px;
+    .game-card-headline h2 {
+        font-size: 3.5em;
+    }
+
+    .card {
+        background-color: #ff9545 !important;
+        padding: 35px 25px;
+        height: 100%;
+        border-radius: 20px;
     }
 
     .card-title {
-        font-size: 30px;
-        margin-bottom: 20px;
-        ;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600 !important;
+        font-size: 40px !important;
+        height: 100px;
+        /* margin-bottom: 30px !important; */
     }
 
     .card-text {
-        font-size: 20px;
+        font-weight: 300;
+        font-size: 25px;
+
     }
 
-    /* ------------------------game card end------------------------ */
+    /* ------------------game card end------------------ */
 
 
 
@@ -830,7 +1181,7 @@
         font-size: 28px;
     }
 
-    .slider-btn{
+    .slider-btn {
         font-size: 20px !important;
         padding: 10px 40px !important;
     }
@@ -852,14 +1203,28 @@
         font-size: 50px;
     }
 
+
+
     #custom-search-input .search-query {
-        padding-top: 15px;
-        padding-bottom: 15px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-right: 40px;
+        padding-left: 45px !important;
+        border-radius: 76px !important;
+        background-color: #000000;
+        color: #FFFFFF;
+        margin-bottom: 0;
+        border-radius: 3px;
+        font-size: 20px;
     }
 
     #custom-search-input button {
-        padding: 17px 5px;
-        left: -45px;
+        padding: 25px 5px;
+        left: -70px;
+    }
+
+    .fa-paper-plane {
+        font-size: 35px;
     }
 
     #custom-search-input {
@@ -867,7 +1232,7 @@
     }
 
     .fa-paper-plane {
-        font-size: 20px;
+        font-size: 25px;
     }
 
     /* ------------------------subscription end------------------------ */
@@ -890,17 +1255,23 @@
         text-align: center;
     }
 
-    .footer-icon{
+    .footer-icon {
         float: right;
     }
 
-    .company-policy span{
+    .company-policy span {
         font-size: 12px;
     }
-    
-    .copyright{
+
+    .copyright {
         margin-right: 30px;
     }
+
+    .company-policy {
+        display: flex;
+        justify-content: between;
+    }
+
     /* ------------------------footer end------------------------ */
 
 
@@ -909,86 +1280,109 @@
 }
 
 /* XX-Large devices (larger desktops, 1400px and up) */
-@media (min-width: 1400px) {
+@media (min-width: 1400px) and (max-width: 2559.98px) {
 
     /* Banner start */
     .banner {
         padding: 100px 0;
+        height: 100vh;
     }
 
     .banner-container {
-        background-color: #000000;
+        /* background-color: #000000; */
 
     }
 
     .banner-text {
-        padding-top: 50px;
-        padding-bottom: 50px;
-        padding-right: 250px;
-        padding-left: 30px;
-
+        /* width: 80%; */
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-right: 300px;
+        padding-left: 50px;
+        background-color: #000000;
     }
 
     .banner-text h1 {
-        font-size: 3rem !important;
+        font-family: 'Helsinki';
+        color: #fff;
+        font-size: 2.5em !important;
     }
+
 
     /* Banner end */
 
 
 
-    /* ------------------------drinking game start------------------------ */
+    /* Drinking game start */
     .drinking-game {
-        padding: 100px 0;
+        padding: 100px 0 !important;
     }
 
     .drinking-game-text {
-        width: 60%;
+        width: 38%;
+        margin-left: 10%;
     }
 
     .drinking-game-text h2 {
-        font-size: 50px;
+        font-size: 3.5em;
+        margin-bottom: 50px;
     }
 
     .drinking-game-text p {
-        font-size: 28px;
+        font-size: 1.3em;
     }
 
-
-    .drinking-game-img-container {
-        display: flex;
-        align-items: flex-end !important;
+    .drinking-game-btn {
+        border-radius: 50px !important;
+        font-size: 18px !important;
+        font-weight: 700 !important;
+        padding: 12px 50px;
+        background-color: #ff9545 !important;
     }
 
-    /* ------------------------drinking game end------------------------ */
+    /* Drinking game end */
 
 
-    /* ------------------------game card start------------------------ */
+
+
+
+    /* ------------------game card start------------------ */
+    .game-card {
+        background-color: #000000;
+        padding: 150px 0;
+        color: #000000;
+    }
+
     .game-card-headline {
-        margin-bottom: 100px;
+        margin-bottom: 80px;
+    }
+
+    .game-card-headline h2 {
+        font-size: 3.5em;
     }
 
     .card {
         background-color: #ff9545 !important;
-        padding: 30px 40px;
+        padding: 35px 25px;
         height: 100%;
-    }
-
-    .game-card h2 {
-        font-size: 72px;
+        border-radius: 20px;
     }
 
     .card-title {
-        font-size: 48px;
-        margin-bottom: 40px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600 !important;
+        font-size: 40px !important;
+        height: 100px;
+        /* margin-bottom: 30px !important; */
     }
 
     .card-text {
-        font-size: 28px;
+        font-weight: 300;
+        font-size: 25px;
+
     }
 
-    /* ------------------------game card end------------------------ */
-
+    /* ------------------game card end------------------ */
 
 
 
@@ -1003,7 +1397,7 @@
         margin-bottom: 50px;
     }
 
-    .slider-btn{
+    .slider-btn {
         font-size: 24px !important;
         padding: 15px 50px !important;
     }
@@ -1036,11 +1430,68 @@
     /* ------------------------book slider end------------------------ */
 
 
+    /* ------------------ruthless start------------------ */
+    .ruthless {
+        width: 100%;
+        height: 100%;
+        background: url('../img/ruthless.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: #ffffff;
+        padding: 100px 0;
+    }
+
+    .ruthless-text {
+        background-color: #000000;
+        width: 58%;
+        padding: 80px;
+    }
+
+    .ruthless-text h2 {
+        font-size: 65px;
+        margin-bottom: 50px;
+    }
+
+    .ruthless-text p {
+        font-weight: 300;
+        font-size: 25px;
+        margin-bottom: 50px;
+    }
+
+    .my-btn {
+        border-radius: 50px !important;
+        font-size: 25px !important;
+        font-weight: 700 !important;
+        padding: 10px 40px;
+    }
+
+    .ruthless-card {
+        color: #000000;
+        margin-top: 50px;
+    }
+
+    .ruthless-single-card {
+        background-color: #ff9645;
+        border-radius: 10px;
+        padding: 30px;
+        height: 150px;
+    }
+
+    .ruthless-single-card h5 {
+        font-weight: 700;
+        font-size: 1.5em;
+    }
+
+
+    /* ------------------ruthless end------------------ */
+
+
     /* ------------------------faq end------------------------ */
     /* ------------------------faq end------------------------ */
 
 
-    /* ------------------------subscription end------------------------ */
+    /* ------------------------subscription start------------------------ */
     .subscription {
         padding: 100px 0;
     }
@@ -1057,40 +1508,44 @@
     /* Email box */
 
     .subscription-title {
+        margin-bottom: 80px;
+    }
+
+
+    .subscription-title {
         margin-bottom: 50px;
     }
 
-    .subscription {
-        padding: 30px 0;
-    }
-
-    .subscription-title {
-        margin-bottom: 35px;
-    }
-
     .subscription-title h2 {
-        font-size: 72px;
+        font-size: 65px;
     }
 
     #custom-search-input {
         width: 60%;
-        margin-bottom: 25px;
+        margin-bottom: 30px;
     }
-
 
 
     #custom-search-input .search-query {
-        padding-top: 18px;
-        padding-bottom: 18px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 40px;
+        padding-left: 57px !important;
+        border-radius: 76px !important;
+        background-color: #000000;
+        color: #FFFFFF;
+        margin-bottom: 0;
+        border-radius: 3px;
+        font-size: 22px;
     }
 
     #custom-search-input button {
-        padding: 17px 5px;
-        left: -45px;
+        padding: 25px 5px;
+        left: -80px;
     }
 
     .fa-paper-plane {
-        font-size: 20px;
+        font-size: 35px;
     }
 
     .bullshit {
@@ -1106,6 +1561,7 @@
     .footer-icon li a {
         font-size: 24px;
     }
+
     .footer-about-btn {
         padding: 13px 0px !important;
         border-radius: 80px;
@@ -1117,19 +1573,345 @@
         text-align: center;
     }
 
-    .footer-icon{
+    .footer-icon {
         float: right;
     }
 
-    .company-policy span{
+    .company-policy span {
         font-size: 15px;
     }
-    
-    .copyright{
+
+    .copyright {
         margin-right: 15px;
+    }
+
+    .company-policy {
+        display: flex;
+        justify-content: between;
     }
 
     /* ------------------------footer start------------------------ */
 
 
+}
+
+
+@media (min-width: 2560px) {
+
+    /* Banner start */
+    .banner {
+        padding: 100px 0;
+        height: 100vh;
+    }
+
+    .banner-container {
+        /* background-color: #000000; */
+
+    }
+
+    .banner-text {
+        /* width: 80%; */
+        padding-top: 80px;
+        padding-bottom: 80px;
+        padding-right: 680px;
+        padding-left: 80px;
+        background-color: #000000;
+    }
+
+    .banner-text h1 {
+        font-family: 'Helsinki';
+        color: #fff;
+        font-size: 4.1rem !important;
+    }
+
+
+    /* Banner end */
+
+
+    /* Drinking game start */
+    .drinking-game {
+        padding: 200px 0 !important;
+    }
+
+    .drinking-game-text {
+        width: 32%;
+        margin-left: 25%;
+
+    }
+
+    .drinking-game-text h2 {
+        font-size: 5em;
+    }
+
+    .drinking-game-text p {
+        font-size: 2.1em;
+    }
+
+    .drinking-game-btn {
+        border-radius: 50px !important;
+        font-size: 25px !important;
+        font-weight: 700 !important;
+        padding: 20px 60px;
+        background-color: #ff9545 !important;
+    }
+
+    /* Drinking game end */
+
+
+    /* ------------------game card start------------------ */
+    .game-card {
+        background-color: #000000;
+        padding: 150px 0;
+        color: #000000;
+    }
+
+    .game-card-headline {
+        margin-bottom: 50px;
+    }
+
+    .game-card-headline h2 {
+        font-size: 4em;
+    }
+
+    .card {
+        background-color: #ff9545 !important;
+        padding: 30px 20px;
+        height: 100%;
+        border-radius: 20px;
+    }
+
+    .card-title {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600 !important;
+        font-size: 40px !important;
+        height: 100px;
+        /* margin-bottom: 30px !important; */
+    }
+
+    .card-text {
+        font-weight: 300;
+        font-size: 28px;
+
+    }
+
+    /* ------------------game card end------------------ */
+
+
+    /* ------------------book slider start------------------ */
+    .book-slider {
+        background: #000000;
+        padding: 150px 0;
+    }
+
+    .book-slider-img {
+        text-align: right;
+    }
+
+    .book-slider-text h3 {
+        color: #ffffff;
+        font-size: 4em;
+        margin-bottom: 40px;
+    }
+
+    .book-slider-text p {
+        color: #ffffff;
+        font-weight: 300;
+        font-size: 1.8em;
+        margin-bottom: 50px;
+    }
+
+    /* ------------------book slider end------------------ */
+
+
+
+    /* ------------------ruthless start------------------ */
+    .ruthless {
+        width: 100%;
+        height: 100%;
+        background: url('../img/ruthless.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: #ffffff;
+        padding: 100px 0;
+    }
+
+    .ruthless-text {
+        background-color: #000000;
+        width: 60%;
+        padding: 80px;
+    }
+
+    .ruthless-text h2 {
+        font-size: 70px;
+        margin-bottom: 50px;
+    }
+
+    .ruthless-text p {
+        font-weight: 300;
+        font-size: 30px;
+        margin-bottom: 50px;
+    }
+
+    .my-btn {
+        border-radius: 50px !important;
+        font-size: 30px !important;
+        font-weight: 700 !important;
+        padding: 10px 40px;
+    }
+
+    .ruthless-card {
+        color: #000000;
+        margin-top: 50px;
+    }
+
+    .ruthless-single-card {
+        background-color: #ff9645;
+        border-radius: 10px;
+        padding: 30px;
+        height: 180px;
+    }
+
+    .ruthless-single-card h5 {
+        font-weight: 700;
+        font-size: 2em;
+    }
+
+
+    /* ------------------ruthless end------------------ */
+
+
+
+    /* ------------------faq start------------------ */
+    .faq {
+        background-color: #000000;
+        /* width: 100%;
+    height: 100vh; */
+        padding: 150px 0;
+        color: #FFFFFF;
+    }
+
+    .faq-title {
+        font-size: 80px;
+    }
+
+
+    .accordion-header button {
+        font-size: 25px
+    }
+
+    .accordion-body {
+        font-size: 25px;
+    }
+
+    .accordion-item {
+        margin: 20px 0;
+    }
+
+    .accordion-header {
+        background-color: #000000 !important;
+    }
+
+    .accordion-button {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+    }
+
+    .bg-color {
+        background: black !important;
+        color: white !important;
+    }
+
+    .slick-dots li button:before {
+        color: #f79243 !important;
+        font-size: 20px !important;
+    }
+
+    /* ------------------faq end------------------ */
+
+
+
+    /* ------------------------subscription start------------------------ */
+    .subscription {
+        padding: 100px 0;
+    }
+
+    .subscription-title {
+        margin-bottom: 80px;
+    }
+
+    .subscription-title h2 {
+        font-size: 100px;
+    }
+
+    #custom-search-input .search-query {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-right: 40px;
+        padding-left: 57px !important;
+        border-radius: 76px !important;
+        background-color: #000000;
+        color: #FFFFFF;
+        margin-bottom: 0;
+        border-radius: 3px;
+        font-size: 35px;
+    }
+
+    #custom-search-input button {
+        padding: 36px 5px;
+        left: -94px;
+    }
+
+    #custom-search-input {
+        margin: 0;
+        margin-top: 10px;
+        padding: 0;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    #custom-search-input {
+        margin-bottom: 40px;
+    }
+
+    .fa-paper-plane {
+        font-size: 45px;
+    }
+
+    .bullshit {
+        font-size: 30px;
+    }
+
+    /* ------------------------subscription end------------------------ */
+
+
+
+    /* Footer start */
+    .footer-icon {
+        float: right;
+    }
+
+    .company-policy {
+        /* font-size: 30px; */
+    }
+
+    .copyright {
+        margin-right: 20px;
+        font-size: 25px;
+    }
+
+    .privacy {
+        font-size: 25px;
+    }
+
+    .social-icon p a {
+        font-size: 30px;
+    }
+
+    .company-policy {
+        display: flex;
+        justify-content: between;
+    }
+
+    /* Footer end */
 }

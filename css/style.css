@@ -84,7 +84,20 @@ header {
 
 
 
+
+
 /* ------------------drinking game start------------------ */
+.drinking-game{
+    /* height: 100vh; */
+}
+
+.drinking-game-img-container{
+    background: url('../img/Who\ does\ not\ love\ drinking\ games.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 35% auto;;
+}
+
 .drinking-game-text p {
     font-weight: 300;
 }
@@ -94,7 +107,11 @@ header {
     font-size: 18px !important;
     font-weight: 700 !important;
 }
+
+
 /* ------------------drinking game end------------------ */
+
+
 
 
 
@@ -148,7 +165,7 @@ header {
 }
 
 .book-slider-img {
-    text-align: center;
+    text-align: right;
 }
 
 .book-slider-text h3 {
@@ -159,6 +176,14 @@ header {
     color: #ffffff;
     font-weight: 300;
 }
+
+
+.slick-dots li button:before{
+    font-size: 20px !important;
+    color: #f79243 !important;}
+
+
+
 
 /* ------------------book slider end------------------ */
 
@@ -229,10 +254,7 @@ header {
     color:white !important;
 }
 
-.slick-dots li button:before{
-    color: #f79243 !important;
-    font-size: 20px !important;
-}
+
 /* ------------------faq end------------------ */
 
 
@@ -253,12 +275,11 @@ header {
 
 #custom-search-input .search-query {
     padding-right: 40px;
-    padding-left: 20px !important;
+    padding-left: 35px !important;
     border-radius: 50px !important;
     background-color: #000000;
     color: #FFFFFF;
     /* IE7-8 doesn't have border-radius, so don't indent the padding */
-
     margin-bottom: 0;
     border-radius: 3px;
 }
@@ -279,6 +300,11 @@ header {
     z-index: 3;
 }
 
+::placeholder {
+    color: rgb(255, 255, 255) !important;
+    opacity: 1; /* Firefox */
+  }
+  
 /* Email box */
 
 
@@ -300,7 +326,7 @@ header {
 /* ------------------footer start------------------ */
 footer{
     background-color: #ff9545;
-    padding: 80px;;
+    padding: 80px 0;
 }
 
 .footer-icon{}
@@ -338,7 +364,14 @@ footer{
     text-align: center;
 }
 
-.copyright, .privacy{
+.copyright{
     font-weight: 600;
+}
+.privacy {
+    font-weight: 600;
+}
+
+.company-policy{
+
 }
 /* ------------------footer end------------------ */
