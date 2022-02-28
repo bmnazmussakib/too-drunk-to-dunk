@@ -279,9 +279,27 @@
         margin-bottom: 15px;
     }
 
+
+    #custom-search-input .search-query {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 40px;
+        padding-left: 25px !important;
+        border-radius: 76px !important;
+        background-color: #000000;
+        color: #FFFFFF;
+        margin-bottom: 0;
+        border-radius: 3px;
+        font-size: 15px;
+    }
+
     #custom-search-input button {
-        padding: 4px 5px;
-        left: -35px;
+        padding: 15px 5px;
+        left: -45px;
+    }
+
+    .fa-paper-plane {
+        font-size: 15px;
     }
 
     .bullshit {
@@ -609,11 +627,7 @@
         font-size: 30px;
     }
 
-    #custom-search-input {
-        width: 50%;
-        margin-bottom: 15px;
-    }
-
+  
 
     #custom-search-input .search-query {
         padding-top: 5px;
@@ -631,7 +645,7 @@
 
 
     #custom-search-input {
-        width: 50%;
+        width: 60%;
         margin-bottom: 15px;
     }
 
@@ -642,8 +656,8 @@
 
 
     #custom-search-input button {
-        padding: 8px 5px;
-        left: -40px;
+        padding: 12px 5px;
+        left: -45px;
     }
 
     .bullshit {
@@ -959,23 +973,23 @@
         color: #FFFFFF;
         margin-bottom: 0;
         border-radius: 3px;
-        font-size: 20px;
+        font-size: 18px;
     }
 
     #custom-search-input button {
-        padding: 12px 5px;
-        left: -60px;
+        padding: 15px 5px;
+        left: -55px;
     }
 
 
     #custom-search-input {
-        width: 50%;
+        width: 55%;
         margin-bottom: 15px;
     }
 
 
     .fa-paper-plane {
-        font-size: 25px;
+        font-size: 22px;
     }
 
 
@@ -1204,10 +1218,9 @@
     }
 
 
-
     #custom-search-input .search-query {
-        padding-top: 8px;
-        padding-bottom: 8px;
+        /* padding-top: 8px;
+        padding-bottom: 8px; */
         padding-right: 40px;
         padding-left: 45px !important;
         border-radius: 76px !important;
@@ -1219,7 +1232,7 @@
     }
 
     #custom-search-input button {
-        padding: 25px 5px;
+        padding: 20px 5px;
         left: -70px;
     }
 
@@ -1233,6 +1246,11 @@
 
     .fa-paper-plane {
         font-size: 25px;
+    }
+
+    #custom-search-input {
+        width: 60%;
+        margin-bottom: 15px;
     }
 
     /* ------------------------subscription end------------------------ */
@@ -1536,7 +1554,7 @@
         color: #FFFFFF;
         margin-bottom: 0;
         border-radius: 3px;
-        font-size: 22px;
+        font-size: 25px;
     }
 
     #custom-search-input button {
